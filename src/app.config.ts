@@ -31,7 +31,8 @@ export const MONGODB = {
 
 export const REDIS = {
   host: argv.redis_host || 'localhost',
-  port: argv.redis_port || 6379,
+  port: argv.redis_port || 6380,
+  password: 'test_123',
   ttl: null,
   defaultCacheTTL: 60 * 60 * 24,
 };
@@ -44,10 +45,10 @@ export const AUTH = {
 };
 
 export const EMAIL = {
-  account: argv.email_account || 'your email address like : i@surmon.me',
-  password: argv.email_password || 'your email password',
+  account: argv.email_account || '13260909008@163.com',
+  password: argv.email_password || 'wohennb..',
   from: '"Surmon" <i@surmon.me>',
-  admin: 'surmon@foxmail.com',
+  admin: '13260909008@163.com',
 };
 
 export const AKISMET = {

@@ -26,7 +26,7 @@ export class EmailService {
 
   constructor() {
     this.transporter = nodemailer.createTransport({
-      host: 'smtp.qq.com',
+      host: 'smtp.163.com',
       secure: true,
       port: 465,
       auth: {
