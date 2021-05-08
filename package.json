@@ -76,7 +76,7 @@
     "simple-netease-cloud-music": "^0.4.4",
     "sitemap": "^3.2.2",
     "typegoose": "^5.8.1",
-    "typeorm": "^0.2.18",
+    "typeorm": "^0.2.25",
     "typescript": "^3.5.3",
     "wonderful-bing-wallpaper": "^0.2.1",
     "yargs": "^13.3.0"
